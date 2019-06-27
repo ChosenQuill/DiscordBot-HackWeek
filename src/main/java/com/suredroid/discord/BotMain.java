@@ -2,6 +2,7 @@ package com.suredroid.discord;
 
 public class BotMain {
     public static void main(String[] args) {
-        DUtils.
+        DiscordBot.start(System.getenv("hack_week_bot_key"));
+
     }
 }
